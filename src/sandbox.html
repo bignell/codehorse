@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Sandbox</title>
+   <script>
+     window.addEventListener('message', function (e) {
+       var output;
+       try {
+         output = eval(e.data);
+       } catch (e) {
+         output = 'error'; // TODO: add detailed error reporting
+       }
+       e.source.postMessage(result, event.origin);
+     });
+   </script>
+ </head>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "codehorse",
+  "version": "0.0.1",
+  "description": "App to practice short programming challenges",
+  "author": "Alex Bignell",
+  "private": true,
+  "devDependencies": {
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-sass": "^2.0.4"
+  }
+}

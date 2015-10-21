@@ -1,0 +1,11 @@
+{
+  "title": "String Reverse",
+  "description": "A description of this task.",
+  "examples": {
+    "Hello world": "dlrow olleH",
+    "Eats, shoots, and leaves.": ".sevael dna ,stoohs ,staE"
+  },
+  "tests": {
+
+  }
+}
